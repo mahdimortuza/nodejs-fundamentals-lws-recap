@@ -1,1 +1,4 @@
-#4 Node.js Global Object & Module System 
+// console.log(__dirname);
+// console.log(__filename);
+
+
