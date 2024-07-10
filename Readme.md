@@ -1,10 +1,11 @@
-# V_4 Node.js Global Object & Module System
+# V_5 - Node.js Server & Core Modules
 
-### node.js has a concept name global as like browser has window
+### different important modules
 
-### module is separate file.
-
-- in node we can not access a variable from another module directly, rather we can get the variable using export and import/require
-- the whole code of a module stays inside of an Effie function
-- Effie function takes some arguments like this,
-  (function(exports, require, module, **filename, **dirname){var a = 5} module.exports = a)
+- osv -> shows information about the os
+- fs -> to read, write, update, delete files
+- events -> to perform an event
+- http
+- queryString
+- url
+- path -> path shows the path of a file
