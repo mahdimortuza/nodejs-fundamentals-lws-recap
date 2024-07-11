@@ -1,13 +1,15 @@
-# V_5 - Node.js Server & Core Modules
+# 6 - Node.js Stream & Buffer
 
-### different important modules
+- stream is the flow of content
+- stream is chunk of buffers
 
-- osv -> shows information about the os
-- fs -> to read, write, update, delete files
-- events -> to perform an event. event should have a listener after event happens
-- queryString
-- url
-- path -> path shows the path of a file
+- buffer is like a data type
 
-- http -> communicates with the network
-  -> response must be ended after sending the response
+### types of stream
+
+1. read stream
+2. write stream
+
+#### req is a readable stream
+
+#### res is a writable stream
